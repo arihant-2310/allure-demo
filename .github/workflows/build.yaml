@@ -33,7 +33,7 @@ jobs:
         with:
           allure_results: build/allure-results
           allure_history: allure-history
-          keep_reports: 20
+          keep_reports: 2
       - name: Publish Report
         if: always()
         uses: peaceiris/actions-gh-pages@v2
